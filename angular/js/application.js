@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', ["ngRoute", "ngAnimate", "angular.filter", '720kb.datepicker', 'ui.utils.masks', 'angularUtils.directives.dirPagination']);
+var myApp = angular.module('myApp', ["ngRoute", "ngAnimate", "angular.filter", '720kb.datepicker', 'ui.utils.masks']);
 
 // Constant Here
 myApp.constant('ConstantAlias', {});
