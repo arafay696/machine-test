@@ -12,10 +12,14 @@
 </div>
 
 <!-- Angular Init Here -->
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>build/js/components.js"></script>
 
 <!-- App JS Files
+<script src="<?php echo base_url(); ?>bower_components/angular/angular.min.js"></script>
+<script src="<?php echo base_url(); ?>bower_components/angular-route/angular-route.min.js"></script>
+<script src="<?php echo base_url(); ?>bower_components/angular-animate/angular-animate.min.js"></script>
+
 <script src="<?php echo base_url(); ?>angular/js/application.js"></script>
 <script src="<?php echo base_url(); ?>angular/js/controller.js"></script>
 <script src="<?php echo base_url(); ?>angular/js/directive.js"></script>

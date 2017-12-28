@@ -8,13 +8,9 @@ cleanCSS = require('gulp-clean-css');
 
 // All bower components, Angular Library to Minify/Compile
 var componentsJsList = [
-    'bower_components/angular/angular.min.js',
+    'bower_components/angular/angular.js',
     'bower_components/angular-route/angular-route.min.js',
     'bower_components/angular-animate/angular-animate.min.js',
-    'bower_components/angular-filter/dist/angular-filter.min.js',
-    'bower_components/angularjs-datepicker/dist/angular-datepicker.js',
-    'bower_components/angular-input-masks/angular-input-masks-standalone.min.js',
-    'bower_components/angularUtils-pagination/dirPagination.js',
     'angular/js/application.js',
     'angular/js/controller.js',
     'angular/js/directive.js',
@@ -34,9 +30,6 @@ gulp.task('components', function () {
     return gulp.src(componentsJsList)
         .pipe(debug())
         .pipe(uglify())
-        .pipe(fixmyjs({
-            asi: false
-        }))
         .pipe(concat('components.js'))
         .pipe(gulp.dest('build/js'));
 });
