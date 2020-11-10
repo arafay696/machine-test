@@ -31,17 +31,17 @@ codeigniter/
 ```
 git clone https://github.com/arafay696/starter-codeigniter-angularjs.git
 ```
+
 ```
-cd starter-codeigniter-angularjs
+create db name: machine-test and import from db directory
 ```
+
 ```
-composer update
+npm i -g bower && npm i -g gulp
 ```
+
 ```
-npm install
-```
-```
-bower install
+cd machine-test && composer update && npm install && bower install
 ```
 
 ## Run
@@ -53,12 +53,12 @@ gulp
 
 Start application:
 ```
-http://localhost/starter-codeigniter-angularjs
+http://localhost/machine-test
 ```
 
 ## Requirements
 
-- PHP 5.3.7 or later
+- PHP 5.6.4 or later
 - `composer` command (See [Composer Installation](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx))
 - NPM
 - Gulp
