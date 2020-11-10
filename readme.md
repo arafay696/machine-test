@@ -29,7 +29,7 @@ codeigniter/
 
 ## Installation
 ```
-git clone https://github.com/arafay696/starter-codeigniter-angularjs.git
+git clone https://github.com/arafay696/machine-test.git
 ```
 
 ```
