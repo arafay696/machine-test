@@ -1,6 +1,13 @@
-# Codeigniter (3.1.3) and AngularJS Starter Application
+# Machine Test
 
-Repo for a starter application for a Single Page Application featuring the modern Codeigniter PHP framework (3.1.3) and front-end framework AngularJS. Just download and install and you have a good foundation for building any application.
+#####DESCRIPTION
+
+1) Make a function that will calculate the internet speed.
+2) After that there will be a start button that will start the function. 
+3) after completion of function values will get from the function and add to database(mysql)
+4) that values will show the bottom of the page in a data-table
+5)there will be a delete button too that will delete the row
+Note: adding, deleting, and refreshing the values will be done by angular js for backend use php with codeignitor 
 
 ## Folder Structure
 
@@ -19,21 +26,6 @@ codeigniter/
 │   └── index.php
 └── vendor/
 ```
-
-## Features!
-
-- Composer
-- Single Page Application
-  - Optimized Codeigniter and AngularJS routes
-    - You kind of don’t need to care about routes, they work automatically as you add new views. Still allows for flexibility if you plan any special routes.
-- Gulp readily configured
-  - Versioning of CSS and AngularJS files
-- Comes with AngularJS configured to work together at their best
-- Angular animation 
-- Angular Pagination
-- Angular Datepicker
-- Font awesome 
-- And more... have a try!
 
 ## Installation
 ```

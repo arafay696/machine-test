@@ -1,1 +1,26 @@
-<h1 class="welcomeMsg">{{welcome}}</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <br/>
+            <h1 class="text-center">{{welcome}}</h1>
+
+            <div class="card">
+                <div class="card-body">
+                    {{speed}} <i ng-click="refresh()" class="fa fa-refresh float-right"></i>
+                </div>
+            </div>
+            <br/>
+            <div class="card">
+                <div class="card-header">
+                    History
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li ng-repeat="history in histories" class="list-group-item">
+                        {{ history.title }} <i ng-click="delete(history.id)"
+                                               class="fa fa-trash text-danger float-right"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
